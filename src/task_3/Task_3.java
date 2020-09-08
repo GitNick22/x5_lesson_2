@@ -8,7 +8,7 @@ package task_3;
 
 import java.util.Scanner;
 
-public class task_3 {
+public class Task_3 {
     public static void main (String [] args) {
         System.out.println("Введите любое число: ");
         Scanner scanner = new Scanner(System.in);
