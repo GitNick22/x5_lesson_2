@@ -10,6 +10,7 @@ public class task_1 {
         Scanner scanner = new Scanner(System.in);
         int inputValue = scanner.nextInt();
         int lastInt = inputValue % 10;
+        System.out.println("Введенное вами число: " + inputValue);
         System.out.println("Последняя цифра введенного числа: " + lastInt);
     }
 }
