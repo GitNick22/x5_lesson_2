@@ -23,10 +23,10 @@ public class Task_5 {
 
         System.out.println("Вы ввели следующие цифры: " + x + ", " + y + ", " + z);
 
-        if (x < y || x < z) {
+        if (x < y & x < z) {
             System.out.println("Наименьшее из введеных чисел: " + x);
-        } else if (z < y || z < x) {
-            System.out.println("Наименьшее из введеных чисел: " + z);
+        } else if (y < x & y < z) {
+            System.out.println("Наименьшее из введеных чисел: " + y);
         } else {
             System.out.println("Наименьшее из введеных чисел: " + z);
         }
